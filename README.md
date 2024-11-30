@@ -25,6 +25,30 @@ This Python script scrapes job listings from Upwork based on a specific topic an
    cd job-scraper
    ```
 2. Install the required Python packages:
-```bash
+  ```bash
   pip install tls_client beautifulsoup4
   ```
+3. Ensure `sqlite3` is enabled in your Python environment (it is included by default).
+## Usage
+
+1. Open the script (`main.py`) and modify the `topic` variable to your desired keyword. The default is set to `'data scraping'`.
+
+2. Run the script:
+   ```bash
+   python main.py
+   ```
+3. The script will:
+Scrape job postings related to the topic.
+Insert unique job details into an SQLite database (jobs.db).
+
+## Database Schema
+
+The script creates an SQLite database (`jobs.db`) with a table named articles. The schema is as follows:
+
+`id`: Integer, primary key.
+`date`: Text, date of job posting.
+`tittle`: Text, job title.
+`price`: Text, job price.
+`description`: Text, job description.
+`link`: Text, link to the job posting.
+
