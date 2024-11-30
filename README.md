@@ -23,7 +23,8 @@ This Python script scrapes job listings from Upwork based on a specific topic an
    ```bash
    git clone https://github.com/your-username/job-scraper.git
    cd job-scraper
+   ```
 2. Install the required Python packages:
    ```bash
   pip install tls_client beautifulsoup4
-
+  ```
