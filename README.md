@@ -46,9 +46,15 @@ Insert unique job details into an SQLite database (jobs.db).
 The script creates an SQLite database (`jobs.db`) with a table named articles. The schema is as follows:
 
 `id`: Integer, primary key.
+
 `date`: Text, date of job posting.
+
 `tittle`: Text, job title.
+
 `price`: Text, job price.
+
 `description`: Text, job description.
+
 `link`: Text, link to the job posting.
+
 
