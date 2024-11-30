@@ -25,6 +25,6 @@ This Python script scrapes job listings from Upwork based on a specific topic an
    cd job-scraper
    ```
 2. Install the required Python packages:
-   ```bash
+```bash
   pip install tls_client beautifulsoup4
   ```
